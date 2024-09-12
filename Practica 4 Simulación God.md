@@ -208,6 +208,10 @@ switchport mode acces
 switchport acces vlan 999
 shutdown
 
+interface vlan 10
+ip address 192.168.10.12 255.255.255.0
+no shutdown
+
 ```
 
 
